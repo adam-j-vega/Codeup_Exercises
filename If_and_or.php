@@ -4,25 +4,32 @@
  $z = 10;
 
  // if $x < $y < $z then echo "{$x} < {$y} < {$z}\n";
- if($x < $y && $y < $z) {
+ if($x < $y && $y < $z) 
+ {
  	echo "{$x} < {$y} <{$z}\n";
  }
- if($x > 0 || $x < 10){
+ if($x > 0 || $x < 10)
+ {
  	echo "$x is greater than 0 OR less than 10\n";
  }
- if($y > 0 || $y < 10) {
+ if($y > 0 || $y < 10) 
+ {
  	echo "$y is greater than 0 OR less than 10\n";
  }
- if($z > 0 || $z < 10) {
+ if($z > 0 || $z < 10) 
+ {
  	echo "$z is greater than 0 OR less than 10\n";	
  }
- if($x > 0 && $x < 10) {
+ if($x > 0 && $x < 10) 
+ {
  	echo "$x is greater than 0 AND less than 10\n";
  }
- if($y > 0 && $y < 10) {
+ if($y > 0 && $y < 10) 
+ {
  	echo "$y is greater than 0 AND less than 10\n";
  }
- if($z > 0 && $z < 10) {
+ if($z > 0 && $z < 10) 
+ {
  	echo "$z is greater than 0 AND less than 10\n";
  }
  ?>
