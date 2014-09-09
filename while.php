@@ -8,7 +8,8 @@
 // (echo $test with newline) and display results.
 
 $test=5;
-while($test<=15){
+while($test<=15)
+{
 	echo $test . "\n";
 	++$test;
 }
