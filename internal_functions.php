@@ -1,13 +1,18 @@
 <?php
+//internal functions exercise with php
+
 $nothing = NULL;
 $something = '';
 $array = array(1,2,3);
 
-function is_set_or_empty($variable) {
-	if(!empty($variable)) {
+function is_set_or_empty($variable) 
+{
+	if(!empty($variable)) 
+	{
 		echo 'variable is FULL';
 	}
-		else {
+		else 
+		{
 			echo 'variable is EMPTY';
 		}
 }
@@ -24,7 +29,5 @@ echo is_set_or_empty($something) . PHP_EOL;
 $unserialize_array=unserialize($serialize_array);
 
 var_dump($unserialize_array);
-
-
 
 ?>
