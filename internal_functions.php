@@ -23,7 +23,7 @@ echo is_set_or_empty($something) . PHP_EOL;
 
 $unserialize_array=unserialize($serialize_array);
 
-var_dump($unserialize_array)
+var_dump($unserialize_array);
 
 
 

@@ -26,38 +26,38 @@
 
 //}
 
-// $people = array(
-// 				array(
-// 					'first' => 'Adam', 
-// 					'last' => 'Vega',
-// 					'address' => '226 Shadwell Dr.',
-// 					'phone number' => '544-7345'),
-// 				array(
-// 					'first' => 'Warren',
-// 					'last' => 'Jennings',
-// 					'address' => '2449 Cincinnati Ave.',
-// 					'phone number' => '435-0402'),
-// 				array(
-// 					'first' => 'Sarah',
-// 					'last' => 'Lloyd',
-// 					'address' => '2710 Leslie Nicole.',
-// 					'phone number' => '882-7268')
-// 				);
+$people = array(
+				array(
+					'first' => 'Adam', 
+					'last' => 'Vega',
+					'address' => '226 Shadwell Dr.',
+					'phone number' => '544-7345'),
+				array(
+					'first' => 'Warren',
+					'last' => 'Jennings',
+					'address' => '2449 Cincinnati Ave.',
+					'phone number' => '435-0402'),
+				array(
+					'first' => 'Sarah',
+					'last' => 'Lloyd',
+					'address' => '2710 Leslie Nicole.',
+					'phone number' => '882-7268')
+				);
 
-// var_dump($people);
+//var_dump($people);
 
-//foreach($people as $person => $person_info) {
-//	echo "{$person}\n";
+foreach($people as $person => $person_info) {
+	echo "{$person}\n";
 
-// foreach ($people as $key => $value) {
-// 	echo "$key\n";
-// 	if (is_array($value)) {
-// 		foreach ($value as $key => $value) {
-// 			echo "$value\n";
-// 		}
-		// echo "{$value['first']} {$value['last']}\n";
-		// echo "{$value['address']}\n";
-// 	}
-// }
+foreach ($people as $key => $value) {
+	echo "$key\n";
+	if (is_array($value)) {
+		foreach ($value as $key => $value) {
+			echo "$value\n";
+		}
+		echo "{$value['first']} {$value['last']}\n";
+		echo "{$value['address']}\n";
+	}
+}
 
 ?>

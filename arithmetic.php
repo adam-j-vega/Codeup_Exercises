@@ -1,31 +1,39 @@
 <?php
 
-$a=2;
-$b=4;
+$a=5;
+$b=0;
 
+function dividing_zero_error($a) {
+	return $dividing_by_zero=false;
+	}
+function error($error) {
+		return $error=false;
+	}
 function add($a, $b) {
-    echo $a + $b;
+		return $a + $b;
 }
-echo add($a,$b) . PHP_EOL;
-
 function subtract($a, $b) {
-    echo $a - $b;
+		return $a - $b;
 }
-echo subtract($a,$b) . PHP_EOL;
-
 function multiply($a, $b) {
-    echo $a * $b;
+		return $a * $b;
 }
-echo multiply($a,$b) . PHP_EOL;
-
 function divide($a, $b) {
-    echo $a / $b;
+		return $a + $b;
 }
-echo divide($a,$b) . PHP_EOL;
-
 function modulus($a, $b) {
-	echo $a % $b;
-}
-echo modulus($a,$b) . PHP_EOL;
+		return $a + $b;
+}				
 
+if(!is_numeric($a) || !is_numeric($b)) {
+	error(true);
+}elseif($a==0 || $b==0) {
+	echo dividing_zero_error(true);
+}else{
+	add($a,$b);
+	subtract($a,$b);
+	multiply($a,$b);
+	divide($a,$b);
+	modulus($a,$b);
+}
 ?>
