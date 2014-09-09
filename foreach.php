@@ -29,26 +29,32 @@
 
 $things = array('Sgt. Pepper', "11", null, array(1,2,3), 3.14, "12 + 7", false, (string) 11);
 
-foreach ($things as $output) {
-	if (is_integer($output)) {
+foreach ($things as $output) 
+{
+	if (is_integer($output)) 
+	{
 		echo "{$output} . \n";
-	}elseif (is_float($output)) {
+	}
+	elseif (is_float($output)) 
+	{
 		echo "{$output} . \n";
-	}elseif (is_bool($output)) {
+	}
+	elseif (is_bool($output)) 
+	{
 		echo "{$output} . \n";
-	}elseif (is_array($output)){
+	}
+	elseif (is_array($output))
+	{
 		print_r ($output);
 		echo "\n";
-	}elseif (is_null($output)) {
+	}
+	elseif (is_null($output)) 
+	{
 		echo null . "\n";
-	}elseif (is_string($output)) {
+	}
+	elseif (is_string($output)) 
+	{
 		echo "{$output} \n";
 	}
 }
-
-
-
-
-
-
 ?>
