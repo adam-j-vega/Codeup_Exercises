@@ -3,7 +3,7 @@
 
 // Create a variable $test equal to 5.
 // Create a while loop that checks $test <= 15
-// // and increment $test by 1 inside the loop. 
+// and increment $test by 1 inside the loop. 
 // Before incrementing $test, output each iteration 
 // (echo $test with newline) and display results.
 
